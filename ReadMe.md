@@ -1,6 +1,6 @@
-# Weather Underground Widget
+# DarkSky Widget
 ([Zur deutschen Version][1])  
-A Übersicht widget to display the current weather for a location along with the option of a single and up to a 7-day forecast. To use it you need a apiKey from [darksky][2], which can be obtained for free by registering on their website as developer.
+A Übersicht widget to display the current weather for a location along with the option of a single and up to a 8-day forecast. To use it you need a apiKey from [darksky][2], which can be obtained for free by registering on their website as developer.
 The free apiKey is restricted to 1000 calls per day. The widget refresh is set by default to 15 minutes (96 times per day).
 The widget is usable in the Englisch and the German language.
 
@@ -67,8 +67,8 @@ Edit the **index.coffee** and review/modify the following items:
 
 <a id="deutsch"></a>
 
-# Weather Underground Widget
-Ein Übersicht widget zur Darstellung der Wetterkonditionen an einem bestimmten Ort. Es bietet verschiedene Optionen. Es kann ein einzelner Tag oder bis zu 10 Tagen dargestellt werden.
+# DarkSky Widget
+Ein Übersicht widget zur Darstellung der Wetterkonditionen an einem bestimmten Ort. Es bietet verschiedene Optionen. Es kann ein einzelner Tag oder bis zu 8 Tagen dargestellt werden.
 Um das widget benutzen zu können, braucht man einen apiKey von [darksky][2]. Man kann den Key kostenlos erhalten wenn man sich dort als Developer registriert.
 Der Key erlaubt bis zu 1000 Aufrufe pro Tag. Die Aktualisierungsrate des widgets ist auf "alle 15 Minuten" gesetzt. Das entspricht 96 Aufrufen pro Tag.
 
