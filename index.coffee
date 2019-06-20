@@ -85,7 +85,7 @@ update: (output, domEl) ->
 
     # --- show current weather conditions
     current = weatherData.currently.temperature.toFixed(1)
-    if lang == 'de' then current += '°C - '
+    if units == 'ca' then current += '°C - '
     else current += '°F - '
     current += weatherData.currently.summary
     $(domEl).find('.conditions').html(current)
